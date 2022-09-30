@@ -210,8 +210,8 @@ $("document").ready(function () {
           i = i + 1;
           $("p:nth-child(" + i + ")")
             .fadeIn("slow")
-            .delay(1000);
-          if (i == 4) {
+            .delay(4000);
+          if (i == 9) {
             $("p:nth-child(49)")
               .fadeOut("slow")
               .promise()
